@@ -20,14 +20,14 @@ This repository is open for contributions. Clone this repository and keep adding
  * **Clone the repository:**
 	 `git clone https://github.com/amannirala13/Learning-Resources.git`
 
- * **Adding files or changes**
+ * **Adding files or changes:**
  `git add .`
 
- * **Commit changes**
+ * **Commit changes:**
 `git commit -m "your commit message"`
 
- * **Push changes to repository**
-`git push origin master"`
+ * **Push changes to repository:**
+`git push origin contribute"`
 
 ## Important Bookmarks
 
