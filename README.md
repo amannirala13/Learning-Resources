@@ -1,3 +1,4 @@
+
 # Welcome to Learning Resources
 This is an open repository for sharing learning resources on various fields of Science and C.S.
 
@@ -13,6 +14,20 @@ Each folder has a **README.md** file containing all information about the folder
 This repository is open for contributions. Clone this repository and keep adding your resources and references.
 
 ***Make sure that you follow the proper schema of the repository. Any pushes with irrelevant resources in any domain will be discarded. Also make sure you don't push any resources that already present in the repository***
+
+## Commands
+
+ * **Clone the repository:**
+	 `git clone https://github.com/amannirala13/Learning-Resources.git`
+
+ * **Adding files or changes**
+ `git add .`
+
+ * **Commit changes**
+`git commit -m "your commit message"`
+
+ * **Push changes to repository**
+`git push origin master"`
 
 ## Important Bookmarks
 
