@@ -20,3 +20,10 @@ This repository is open for contributions. Clone this repository and keep adding
  - **[MIT OpenCourseWare:](https://ocw.mit.edu/index.htm)** *(Free video leactures and study materials from MIT )*
  - [**Stanford EE:**](https://see.stanford.edu/) *(Free video leactures and study materials from Stanford )*
  - [**FnPlus Curriculum:**](https://github.com/fnplus/curriculum) *(A curated guide for beginners to start their learning journey.)*
+
+## Support
+Collecting resources, going through them to make sure its helpful and organizing it is not an easy task.
+
+*Please support the work:* 
+ - [Follow on **Github**](https://github.com/amannirala13)
+ - [Follow on **LinkedIn**](https://www.linkedin.com/in/amannirala13/)
