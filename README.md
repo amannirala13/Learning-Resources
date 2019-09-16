@@ -1,5 +1,5 @@
 # Welcome to Learning Resources
-The is a open repository for sharing learning resources on various fields of Science and C.S.
+This is an open repository for sharing learning resources on various fields of Science and C.S.
 
 **Aim:** To provide a library for beginners and professionals to start learning with the ***quick short note resources*** and also get hands on world famous ***eBooks***, ***tutorials***, ***research works*** and other ***archived resources*** of the specific domain for free. 
 
