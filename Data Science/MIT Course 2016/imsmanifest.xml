@@ -1,0 +1,1593 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="https://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="https://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"
+          version="2019-8-13T23:39:59"
+          cwsp:packageType="Course"
+          xml:base="6-0002-fall-2016/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd https://ocw.mit.edu/xmlns/ocw_imscp https://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd https://ocw.mit.edu/xmlns/LOM https://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Introduction to Computational Thinking and Data Science</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">6.0002</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2016</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Grimson, Eric</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2019-8-13</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Guttag, John</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2019-8-13</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Bell, Ana</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2019-8-13</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Topics</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Computer Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Topics</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Mathematics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Probability and Statistics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016">
+        <organization identifier="ocw_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016">
+            <title>Introduction to Computational Thinking and Data Science</title>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Introduction to Computational Thinking and Data Science</title>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.6-0002f16-th.jpg"
+          identifierref="r_contents.6-0002f16-th.jpg">
+				<title>6-0002f16-th.jpg</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.6-0002f16.jpg"
+          identifierref="r_contents.6-0002f16.jpg">
+				<title>6-0002f16.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.software"
+                  identifierref="r_contents.software.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Software</title>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.software.python-install.zip"
+          identifierref="r_contents.software.python-install.zip">
+				<title>python-install.zip</title>
+				</item>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files"
+                  identifierref="r_contents.lecture-slides-and-files.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Lecture Slides and Files</title>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec2.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec2.pdf">
+				<title>MIT6_0002F16_lec2.pdf</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec3.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec3.pdf">
+				<title>MIT6_0002F16_Lecture 3: Graph-theoretic Models</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec4.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec4.pdf">
+				<title>MIT6_0002F16_Lecture 4: Stochastic Thinking</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec5.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec5.pdf">
+				<title>MIT6_0002F16_Lecture 5: Random Walks</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec6.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec6.pdf">
+				<title>MIT6_0002F16_Lecture 6: Monte Carlo Simulation</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec7.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec7.pdf">
+				<title>MIT6_0002F16_Lecture 7: Confidence Intervals</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec11.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec11.pdf">
+				<title>MIT6_0002F16_Lecture 11: Introduction to Machine Learning</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec10.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec10.pdf">
+				<title>MIT6_0002F16_Lecture 10: Understanding</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec12.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec12.pdf">
+				<title>MIT6_0002F16_Lecture 12: Clustering</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec14.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec14.pdf">
+				<title>MIT6_0002F16_Lecture 14: Classification and Statistical Sins</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lect5.py"
+          identifierref="r_contents.lecture-slides-and-files.lect5.py">
+				<title>lect5.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lect6.py"
+          identifierref="r_contents.lecture-slides-and-files.lect6.py">
+				<title>lect6.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lect7.py"
+          identifierref="r_contents.lecture-slides-and-files.lect7.py">
+				<title>lect7.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec8.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec8.pdf">
+				<title>MIT6_0002F16_Lecture 8: Sampling and Standard Error</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec9.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec9.pdf">
+				<title>MIT6_0002F16_Lecture 9: Understanding Experimental Data</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec13.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec13.pdf">
+				<title>MIT6_0002F16_Lecture 13: Classification</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lectureGraphs.py"
+          identifierref="r_contents.lecture-slides-and-files.lectureGraphs.py">
+				<title>lectureGraphs.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lecture4.py"
+          identifierref="r_contents.lecture-slides-and-files.lecture4.py">
+				<title>lecture4.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lectureCode.py"
+          identifierref="r_contents.lecture-slides-and-files.lectureCode.py">
+				<title>lectureCode.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.lect15.py"
+          identifierref="r_contents.lecture-slides-and-files.lect15.py">
+				<title>lect15.py</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture2.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture2.zip">
+				<title>Lecture2.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture8.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture8.zip">
+				<title>Lecture8.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture9.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture9.zip">
+				<title>Lecture9.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture10.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture10.zip">
+				<title>Lecture10.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture14.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture14.zip">
+				<title>Lecture14.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec1.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec1.pdf">
+				<title>lecture1</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture1.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture1.zip">
+				<title>Lecture1.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture12.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture12.zip">
+				<title>Lecture12.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.Lecture13.zip"
+          identifierref="r_contents.lecture-slides-and-files.Lecture13.zip">
+				<title>Lecture13.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-slides-and-files.MIT6_0002F16_lec15.pdf"
+          identifierref="r_contents.lecture-slides-and-files.MIT6_0002F16_lec15.pdf">
+				<title>MIT6_0002F16_Lecture 15</title>
+				</item>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos"
+                  identifierref="r_contents.lecture-videos.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Lecture Videos</title>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-5-random-walks"
+          identifierref="r_contents.lecture-videos.lecture-5-random-walks.index.htm">
+				<title>Lecture 5: Random Walks</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.srt"
+          identifierref="r_contents.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.pdf"
+          identifierref="r_contents.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-6-monte-carlo-simulation"
+          identifierref="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.index.htm">
+				<title>Lecture 6: Monte Carlo Simulation</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.srt"
+          identifierref="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.pdf"
+          identifierref="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-7-confidence-intervals"
+          identifierref="r_contents.lecture-videos.lecture-7-confidence-intervals.index.htm">
+				<title>Lecture 7: Confidence Intervals</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.srt"
+          identifierref="r_contents.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.pdf"
+          identifierref="r_contents.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-8-sampling-and-standard-error"
+          identifierref="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.index.htm">
+				<title>Lecture 8: Sampling and Standard Error</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.srt"
+          identifierref="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.pdf"
+          identifierref="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-9-understanding-experimental-data"
+          identifierref="r_contents.lecture-videos.lecture-9-understanding-experimental-data.index.htm">
+				<title>Lecture 9: Understanding Experimental Data</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.srt"
+          identifierref="r_contents.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.pdf"
+          identifierref="r_contents.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-11-introduction-to-machine-learning"
+          identifierref="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.index.htm">
+				<title>Lecture 11: Introduction to Machine Learning</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.srt"
+          identifierref="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.pdf"
+          identifierref="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-1-introduction-and-optimization-problems"
+          identifierref="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.index.htm">
+				<title>Lecture 1: Introduction and Optimization Problems</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.srt"
+          identifierref="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.pdf"
+          identifierref="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-10-understanding-experimental-data-cont."
+          identifierref="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..index.htm">
+				<title>Lecture 10: Understanding Experimental Data (cont.)</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.srt"
+          identifierref="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.pdf"
+          identifierref="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-12-clustering"
+          identifierref="r_contents.lecture-videos.lecture-12-clustering.index.htm">
+				<title>Lecture 12: Clustering</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-12-clustering.esmzYhuFnds.srt"
+          identifierref="r_contents.lecture-videos.lecture-12-clustering.esmzYhuFnds.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-12-clustering.esmzYhuFnds.pdf"
+          identifierref="r_contents.lecture-videos.lecture-12-clustering.esmzYhuFnds.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-2-optimization-problems"
+          identifierref="r_contents.lecture-videos.lecture-2-optimization-problems.index.htm">
+				<title>Lecture 2: Optimization Problems</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.srt"
+          identifierref="r_contents.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.pdf"
+          identifierref="r_contents.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-3-graph-theoretic-models"
+          identifierref="r_contents.lecture-videos.lecture-3-graph-theoretic-models.index.htm">
+				<title>Lecture 3: Graph-theoretic Models</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.srt"
+          identifierref="r_contents.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.pdf"
+          identifierref="r_contents.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-4-stochastic-thinking"
+          identifierref="r_contents.lecture-videos.lecture-4-stochastic-thinking.index.htm">
+				<title>Lecture 4: Stochastic Thinking</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.srt"
+          identifierref="r_contents.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.pdf"
+          identifierref="r_contents.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-14-classification-and-statistical-sins"
+          identifierref="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.index.htm">
+				<title>Lecture 14: Classification and Statistical Sins</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.srt"
+          identifierref="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.pdf"
+          identifierref="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-15-statistical-sins-and-wrap-up"
+          identifierref="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.index.htm">
+				<title>Lecture 15: Statistical Sins and Wrap Up</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.srt"
+          identifierref="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.pdf"
+          identifierref="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.pdf">
+				<title>3play pdf file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-13-classification"
+          identifierref="r_contents.lecture-videos.lecture-13-classification.index.htm">
+				<title>Lecture 13: Classification</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-13-classification.eg8DJYwdMyg.srt"
+          identifierref="r_contents.lecture-videos.lecture-13-classification.eg8DJYwdMyg.srt">
+				<title>3play caption file</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.lecture-videos.lecture-videos.lecture-13-classification.eg8DJYwdMyg.pdf"
+          identifierref="r_contents.lecture-videos.lecture-13-classification.eg8DJYwdMyg.pdf">
+				<title>3play pdf file</title>
+				</item>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Readings</title>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Assignments</title>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.MIT6_0002F16_PythonResurcs.pdf"
+          identifierref="r_contents.assignments.MIT6_0002F16_PythonResurcs.pdf">
+				<title>MIT6_0002F16_Python Resources</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.MIT6_0002F16_StyleGuide.pdf"
+          identifierref="r_contents.assignments.MIT6_0002F16_StyleGuide.pdf">
+				<title>MIT6_0002F16_Style Guide</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.PS5.zip"
+          identifierref="r_contents.assignments.PS5.zip">
+				<title>PS5.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.PS4.zip"
+          identifierref="r_contents.assignments.PS4.zip">
+				<title>PS4.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.PS1.zip"
+          identifierref="r_contents.assignments.PS1.zip">
+				<title>PS1.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.PS2.zip"
+          identifierref="r_contents.assignments.PS2.zip">
+				<title>PS2.zip</title>
+				</item>
+				<item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.assignments.PS3.zip"
+          identifierref="r_contents.assignments.PS3.zip">
+				<title>PS3.zip</title>
+				</item>
+			</item>
+            <item identifier="i_6-0002-introduction-to-computational-thinking-and-data-science-fall-2016.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2019-8-13">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lect15.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lect15.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lect15.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lect15.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-12-clustering.esmzYhuFnds.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec4.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.PS1.zip"
+                  type="other"
+                  href="contents/assignments/PS1.zip">
+            <metadata>
+                <adlcp:location>contents/assignments/PS1.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/PS1.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lectureGraphs.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lectureGraphs.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lectureGraphs.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lectureGraphs.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-5-random-walks.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-5-random-walks/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-5-random-walks/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-5-random-walks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-slides-and-files/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec3.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec3.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-9-understanding-experimental-data.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-9-understanding-experimental-data/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-9-understanding-experimental-data/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-9-understanding-experimental-data/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.PS4.zip"
+                  type="other"
+                  href="contents/assignments/PS4.zip">
+            <metadata>
+                <adlcp:location>contents/assignments/PS4.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/PS4.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-12-clustering.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-12-clustering/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-12-clustering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-12-clustering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.K2SC-WPdT6k.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/K2SC-WPdT6k.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-11-introduction-to-machine-learning/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture13.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture13.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture13.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture13.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec12.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec12.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-9-understanding-experimental-data.vIFKGFl1Cn8.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-9-understanding-experimental-data/vIFKGFl1Cn8.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec15.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec15.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec6.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec6.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-14-classification-and-statistical-sins.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-14-classification-and-statistical-sins/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-14-classification-and-statistical-sins/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-5-random-walks.6wUD_gp5WeE.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-5-random-walks/6wUD_gp5WeE.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-11-introduction-to-machine-learning.h0e2HAPTGF4.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-11-introduction-to-machine-learning/h0e2HAPTGF4.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec2.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture2.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture2.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture2.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture2.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lecture4.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lecture4.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lecture4.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lecture4.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture12.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture12.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture12.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture12.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec14.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec14.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-3-graph-theoretic-models.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-3-graph-theoretic-models/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-3-graph-theoretic-models/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-3-graph-theoretic-models/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.MIT6_0002F16_PythonResurcs.pdf"
+                  type="other"
+                  href="contents/assignments/MIT6_0002F16_PythonResurcs.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT6_0002F16_PythonResurcs.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT6_0002F16_PythonResurcs.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec1.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-13-classification.eg8DJYwdMyg.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture8.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture8.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture8.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture8.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.C1lhuz6pZC0.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/C1lhuz6pZC0.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.6-0002f16.jpg"
+                  type="other" href="contents/6-0002f16.jpg">
+            <metadata>
+                <adlcp:location>contents/6-0002f16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-0002f16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..fQvg-hh9dUw.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./fQvg-hh9dUw.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec9.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec9.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec9.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec9.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.PS2.zip"
+                  type="other"
+                  href="contents/assignments/PS2.zip">
+            <metadata>
+                <adlcp:location>contents/assignments/PS2.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/PS2.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.6-0002f16-th.jpg"
+                  type="other"
+                  href="contents/6-0002f16-th.jpg">
+            <metadata>
+                <adlcp:location>contents/6-0002f16-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/6-0002f16-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lect6.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lect6.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lect6.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lect6.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-7-confidence-intervals.rUxP7TM8-wo.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-7-confidence-intervals/rUxP7TM8-wo.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec8.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec8.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-2-optimization-problems.uK5yvoXnkSk.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-2-optimization-problems/uK5yvoXnkSk.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-12-clustering.esmzYhuFnds.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-12-clustering/esmzYhuFnds.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-4-stochastic-thinking.-1BnXEwHUok.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-4-stochastic-thinking/-1BnXEwHUok.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-8-sampling-and-standard-error/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-8-sampling-and-standard-error/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-8-sampling-and-standard-error/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-10-understanding-experimental-data-cont..index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-10-understanding-experimental-data-cont./index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-10-understanding-experimental-data-cont./index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-2-optimization-problems.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-2-optimization-problems/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-2-optimization-problems/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-2-optimization-problems/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.MIT6_0002F16_StyleGuide.pdf"
+                  type="other"
+                  href="contents/assignments/MIT6_0002F16_StyleGuide.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT6_0002F16_StyleGuide.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT6_0002F16_StyleGuide.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.software.python-install.zip"
+                  type="other"
+                  href="contents/software/python-install.zip">
+            <metadata>
+                <adlcp:location>contents/software/python-install.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/software/python-install.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.PS5.zip"
+                  type="other"
+                  href="contents/assignments/PS5.zip">
+            <metadata>
+                <adlcp:location>contents/assignments/PS5.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/PS5.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-6-monte-carlo-simulation/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-6-monte-carlo-simulation/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-6-monte-carlo-simulation/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lectureCode.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lectureCode.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lectureCode.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lectureCode.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture10.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture10.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture10.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture10.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec5.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec5.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-1-introduction-and-optimization-problems.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-1-introduction-and-optimization-problems/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-1-introduction-and-optimization-problems/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-15-statistical-sins-and-wrap-up.iOZVbILaIZc.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-15-statistical-sins-and-wrap-up/iOZVbILaIZc.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture9.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture9.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture9.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture9.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-7-confidence-intervals.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-7-confidence-intervals/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-7-confidence-intervals/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-7-confidence-intervals/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec11.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec11.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lect7.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lect7.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lect7.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lect7.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture1.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture1.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture1.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture1.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-13-classification.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-13-classification/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-13-classification/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-13-classification/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec10.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec10.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-13-classification.eg8DJYwdMyg.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-13-classification/eg8DJYwdMyg.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.software.index.htm"
+                  type="webcontent"
+                  href="contents/software/index.htm">
+            <metadata>
+                <adlcp:location>contents/software/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/software/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.PS3.zip"
+                  type="other"
+                  href="contents/assignments/PS3.zip">
+            <metadata>
+                <adlcp:location>contents/assignments/PS3.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/PS3.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec13.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec13.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-8-sampling-and-standard-error.soZv_KKax3E.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-8-sampling-and-standard-error/soZv_KKax3E.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.pdf"
+                  type="other"
+                  href="contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.Lecture14.zip"
+                  type="other"
+                  href="contents/lecture-slides-and-files/Lecture14.zip">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/Lecture14.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/Lecture14.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.MIT6_0002F16_lec7.pdf"
+                  type="other"
+                  href="contents/lecture-slides-and-files/MIT6_0002F16_lec7.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/MIT6_0002F16_lec7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/MIT6_0002F16_lec7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-3-graph-theoretic-models.V_TulH374hw.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-3-graph-theoretic-models/V_TulH374hw.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-slides-and-files.lect5.py"
+                  type="other"
+                  href="contents/lecture-slides-and-files/lect5.py">
+            <metadata>
+                <adlcp:location>contents/lecture-slides-and-files/lect5.py.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-slides-and-files/lect5.py"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-4-stochastic-thinking.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-videos/lecture-4-stochastic-thinking/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-4-stochastic-thinking/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-4-stochastic-thinking/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-videos.lecture-6-monte-carlo-simulation.OgO1gpXSUzU.srt"
+                  type="other"
+                  href="contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.srt">
+            <metadata>
+                <adlcp:location>contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-videos/lecture-6-monte-carlo-simulation/OgO1gpXSUzU.srt"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/understandingheader.jpg"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.6-0002-introduction-to-computational-thinking-and-data-science-fall-2016"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/educator.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/styles/three_play.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/jquery.js"/>
+        	<file href="common/scripts/ocw-media-utils.js"/>
+        	<file href="common/scripts/ocw-media-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/scripts/chart.js"/>
+        	<file href="common/scripts/jquery.anythingslider.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_gp.png"/>
+        	<file href="common/images/icon_pin.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/icon-question-ovt.png"/>
+        	<file href="common/images/icon-question-svt.png"/>
+        	<file href="common/images/icon-question-avt.png"/>
+        	<file href="common/images/icon-question-cl.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_social2.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/logo_sapient.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/news-subscibe_bg.png"/>
+        	<file href="common/images/3play_logo.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/images/educator/classroom_next.png"/>
+        	<file href="common/images/educator/classroom_next_dim.png"/>
+        	<file href="common/images/educator/classroom_prev.png"/>
+        	<file href="common/images/educator/classroom_prev_dim.png"/>
+        	<file href="common/images/educator/edu_b-blank.png"/>
+        	<file href="common/images/educator/edu_b-blank-key.png"/>
+        	<file href="common/images/educator/edu_b-duedate.png"/>
+        	<file href="common/images/educator/edu_b-duedate-key.png"/>
+        	<file href="common/images/educator/edu_b-exam.png"/>
+        	<file href="common/images/educator/edu_b-exam-key.png"/>
+        	<file href="common/images/educator/edu_b-lab.png"/>
+        	<file href="common/images/educator/edu_b-lab-key.png"/>
+        	<file href="common/images/educator/edu_b-lab-team.png"/>
+        	<file href="common/images/educator/edu_b-lab-duedate.png"/>
+        	<file href="common/images/educator/edu_b-leclab.png"/>
+        	<file href="common/images/educator/edu_b-leclab-key.png"/>
+        	<file href="common/images/educator/edu_b-lecture.png"/>
+        	<file href="common/images/educator/edu_b-lecture-duedate.png"/>
+        	<file href="common/images/educator/edu_b-lecture-exam.png"/>
+        	<file href="common/images/educator/edu_b-lecture-key.png"/>
+        	<file href="common/images/educator/edu_b-lecture-lunch.png"/>
+        	<file href="common/images/educator/edu_b-lecture-preslab.png"/>
+        	<file href="common/images/educator/edu_b-lecture-quiz.png"/>
+        	<file href="common/images/educator/edu_b-lecture-team.png"/>
+        	<file href="common/images/educator/edu_b-lecrec-key.png"/>
+        	<file href="common/images/educator/edu_b-leclab-duedate.png"/>
+        	<file href="common/images/educator/edu_b-lecrec.png"/>
+        	<file href="common/images/educator/edu_b-lecrec-duedate.png"/>
+        	<file href="common/images/educator/edu_b-noclass-quiz.png"/>
+        	<file href="common/images/educator/edu_b-lunch.png"/>
+        	<file href="common/images/educator/edu_b-lunch-key.png"/>
+        	<file href="common/images/educator/edu_b-noclass.png"/>
+        	<file href="common/images/educator/edu_b-noclass-duedate.png"/>
+        	<file href="common/images/educator/edu_b-noclass-exam.png"/>
+        	<file href="common/images/educator/edu_b-noclass-key.png"/>
+        	<file href="common/images/educator/edu_b-office.png"/>
+        	<file href="common/images/educator/edu_b-office-key.png"/>
+        	<file href="common/images/educator/edu_b-present.png"/>
+        	<file href="common/images/educator/edu_b-present-duedate.png"/>
+        	<file href="common/images/educator/edu_b-present-key.png"/>
+        	<file href="common/images/educator/edu_b-preslab.png"/>
+        	<file href="common/images/educator/edu_b-preslab-key.png"/>
+        	<file href="common/images/educator/edu_b-quiz-key.png"/>
+        	<file href="common/images/educator/edu_b-reclab-key.png"/>
+        	<file href="common/images/educator/edu_b-reclab-concert.png"/>
+        	<file href="common/images/educator/edu_b-reclab.png"/>
+        	<file href="common/images/educator/edu_b-noclass-concert.png"/>
+        	<file href="common/images/educator/edu_b-leclab-concert.png"/>
+        	<file href="common/images/educator/edu_b-concert-key.png"/>
+        	<file href="common/images/educator/edu_b-concert.png"/>
+        	<file href="common/images/educator/edu_b-recitation.png"/>
+        	<file href="common/images/educator/edu_b-recitation-duedate.png"/>
+        	<file href="common/images/educator/edu_b-recitation-exam.png"/>
+        	<file href="common/images/educator/edu_b-recitation-key.png"/>
+        	<file href="common/images/educator/edu_b-team.png"/>
+        	<file href="common/images/educator/edu_b-team-key.png"/>
+        	<file href="common/images/educator/edu_b-team-preslab.png"/>
+        	<file href="common/images/educator/edu_b-work.png"/>
+        	<file href="common/images/educator/edu_b-work-key.png"/>
+        	<file href="common/images/educator/icon-question-cih.png"/>
+        	<file href="common/images/educator/icon-question-cihw.png"/>
+        	<file href="common/images/educator/icon-question-cim.png"/>
+        	<file href="common/images/educator/icon-question-collab.png"/>
+        	<file href="common/images/educator/icon-question-coop.png"/>
+        	<file href="common/images/educator/icon-question-fas.png"/>
+        	<file href="common/images/educator/icon-question-gir.png"/>
+        	<file href="common/images/educator/icon-question-hass.png"/>
+        	<file href="common/images/educator/icon-question-hass-s.png"/>
+        	<file href="common/images/educator/icon-question-iap.png"/>
+        	<file href="common/images/educator/icon-question-lab.png"/>
+        	<file href="common/images/educator/icon-question-urop.png"/>
+        	<file href="common/images/educator/icon-question-active.png"/>
+        	<file href="common/images/educator/icon-question-clickq.png"/>
+        	<file href="common/images/educator/icon-question-conq.png"/>
+        	<file href="common/images/educator/icon-question-flip.png"/>
+        	<file href="common/images/educator/icon-question-form.png"/>
+        	<file href="common/images/educator/icon-question-immed.png"/>
+        	<file href="common/images/educator/icon-question-learn.png"/>
+        	<file href="common/images/educator/icon-question-ped.png"/>
+        	<file href="common/images/educator/icon-question-readq.png"/>
+        	<file href="common/images/educator/icon-question-service.png"/>
+        	<file href="common/images/educator/icon-question-sum.png"/>
+        	<file href="common/images/educator/icon-question-unrestricted-elective-credits.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>
