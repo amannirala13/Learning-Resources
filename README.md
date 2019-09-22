@@ -46,3 +46,6 @@ Collecting resources, going through them to make sure its helpful and organizing
 *Please support the work:*
  - [Follow on **Github**](https://github.com/amannirala13)
  - [Follow on **LinkedIn**](https://www.linkedin.com/in/amannirala13/)
+ - [Follow on **Twitter**](https://twitter.com/AmanNirala13)
+ - [Follow on **Instagram**](https://www.instagram.com/amannirala13/)
+ - [Follow on **HackerRank**](https://www.hackerrank.com/amannirala13)
