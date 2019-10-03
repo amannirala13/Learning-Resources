@@ -11,14 +11,16 @@ The repository is arranged as follows:
 Each folder has a **README.md** file containing all information about the folder, it's contents and resource links.
 
 ## **👨‍💻 Contributions**
-This repository is open for contributions. Clone this repository and keep adding your resources and references.
+This repository is open for contributions. **Fork and clone** this repository and keep adding your resources and references.
 
 ***Make sure that you follow the proper schema of the repository. Any pushes with irrelevant resources in any domain will be discarded. Also make sure you don't push any resources that already present in the repository***
 
 ## **💻 Commands**
 
+ > Fork and Clone this repository
+
  * **Clone the repository:**
-	 `git clone https://github.com/amannirala13/Learning-Resources.git`
+	 `git clone https://github.com/YOUR_USER_NAME/Learning-Resources.git`
 
  * **Checkout to 'Contribute' branch:**
 `git checkout contribute`
@@ -31,6 +33,8 @@ This repository is open for contributions. Clone this repository and keep adding
 
  * **Push changes to repository:**
 `git push origin contribute`
+
+ > Send a Pull Request
 
 ## **📑 Important Bookmarks**
 
