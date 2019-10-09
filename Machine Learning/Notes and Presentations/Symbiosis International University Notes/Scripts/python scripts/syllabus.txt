@@ -1,0 +1,16 @@
+	Introduction to Data Science Process and Data Acquisition;		 
+	Data Preparation;		 
+	Tabular Data;		 
+	Data Cleaning and Integration;		 
+	Usage of Natural Language Processing;		 
+	Exploratory Data Analysis;		 
+	ANN Models; Perceptron Learning ; kNN;		 
+	Linear Regression;		 
+	k-Means;		 
+	Naive Bayes;		 
+	Logistic Regression;		 
+	Trees and Forests;		 
+	Scaling Up Analytics;		 
+	Charles : MapReduce," "Word Frequency Problem";		 
+	and "Other Examples of MapReduce" framework;		 
+	Visualization
