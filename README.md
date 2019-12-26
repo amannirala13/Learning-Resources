@@ -47,7 +47,7 @@ This repository is open for contributions. **Fork and clone** this repository an
 ## **❤ Support**
 Collecting resources, going through them to make sure its helpful and organizing it is not an easy task.
 
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](paypal.me/amannirala13)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/amannirala13)
 
 *Please support the work:*
  - [Follow on **Github**](https://github.com/amannirala13)
